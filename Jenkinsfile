@@ -8,7 +8,7 @@ pipeline{
 		}
 		stage("Execution..."){
                         steps{
-                                sh 'java Sample.java'
+                                sh 'java sample.java'
                         }
                 }
 	}
